@@ -18,18 +18,6 @@ cells *create_cell(){
 	return cell;
 }
 
-
-//NODE CREATION CODE
-node *create_node(int value){
-	node *new = (node*)malloc(sizeof(node));
-
-	new->value = value;
-	new->link = NULL;
-
-	return new;
-}
-
-
 //FUNCTION: introduce nodes to the cell
 void introduce_node(cells *cell, node *new){
 	if(cell->head == NULL){
