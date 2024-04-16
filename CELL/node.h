@@ -7,3 +7,14 @@ typedef struct node{
 	struct node *link;
 }node;
 
+
+//NODE CREATION CODE
+node *create_node(int value){
+	node *new = (node*)malloc(sizeof(node));
+
+	new->value = value;
+	new->link = NULL;
+
+	return new;
+}
+
