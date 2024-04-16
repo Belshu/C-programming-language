@@ -1,5 +1,9 @@
+#ifndef NODE_H
+#define NODE_H
+
 #include <stdio.h>
 #include<stdlib.h>
+
 
 //NODE STRUCTURE
 typedef struct node{
@@ -18,3 +22,4 @@ node *create_node(int value){
 	return new;
 }
 
+#endif
