@@ -1,0 +1,8 @@
+#include "list.h"
+
+int main(){
+	int num, value;
+
+	cells *cell = (cells*)malloc(sizeof(cells));
+
+	printf("Introduce the number of nodes in your cell: "), scanf("%d", &num);
